@@ -1,0 +1,12 @@
+F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\obj\Debug\UserLoginSystem.csproj.AssemblyReference.cache
+F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\obj\Debug\UserLoginSystem.csproj.SuggestedBindingRedirects.cache
+F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\obj\Debug\UserLoginSystem.Properties.Resources.resources
+F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\obj\Debug\UserLoginSystem.UserLogin.resources
+F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\obj\Debug\UserLoginSystem.UserRegister.resources
+F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\obj\Debug\UserLoginSystem.csproj.GenerateResource.cache
+F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\obj\Debug\UserLoginSystem.csproj.CoreCompileInputs.cache
+F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\bin\Debug\UserLoginSystem.exe.config
+F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\bin\Debug\UserLoginSystem.exe
+F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\bin\Debug\UserLoginSystem.pdb
+F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\obj\Debug\UserLoginSystem.exe
+F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\obj\Debug\UserLoginSystem.pdb
