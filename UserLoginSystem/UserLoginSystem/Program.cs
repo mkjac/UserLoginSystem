@@ -16,7 +16,7 @@ namespace UserLoginSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UserRegister());
+            Application.Run(new UserLogin());
         }
     }
 }

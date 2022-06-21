@@ -45,6 +45,8 @@
             this.EmailTextBox.TabIndex = 0;
             this.EmailTextBox.Text = "Email";
             this.EmailTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.EmailTextBox.Enter += new System.EventHandler(this.EmailTextbox_FocusEnter);
+            this.EmailTextBox.Leave += new System.EventHandler(this.EmailTextbox_FocusLeave);
             // 
             // PasswordTextBox
             // 
@@ -53,10 +55,13 @@
             this.PasswordTextBox.ForeColor = System.Drawing.Color.Silver;
             this.PasswordTextBox.Location = new System.Drawing.Point(178, 247);
             this.PasswordTextBox.Name = "PasswordTextBox";
+            this.PasswordTextBox.PasswordChar = '*';
             this.PasswordTextBox.Size = new System.Drawing.Size(433, 34);
             this.PasswordTextBox.TabIndex = 1;
             this.PasswordTextBox.Text = "Password";
             this.PasswordTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PasswordTextBox.Enter += new System.EventHandler(this.PasswordTextbox_FocusEnter);
+            this.PasswordTextBox.Leave += new System.EventHandler(this.PasswordTextbox_FocusLeave);
             // 
             // LoginButton
             // 
@@ -99,6 +104,7 @@
             this.Controls.Add(this.EmailTextBox);
             this.Name = "UserLogin";
             this.Text = "User Login";
+            this.Load += new System.EventHandler(this.UserLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
