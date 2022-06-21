@@ -14,6 +14,7 @@ namespace UserLoginSystem
     public partial class UserRegister : Form
     {
         User user = new User(null, null);
+        hiddenInfo hidden = new hiddenInfo();
 
         public UserRegister()
         {
@@ -85,7 +86,20 @@ namespace UserLoginSystem
             }
             else
             {
-                // Register
+                user.Email = EmailTextBox.Text;
+                user.Password = PasswordTextBox.Text;
+
+                SqlConnection conn = new SqlConnection(hidden.connectionString);
+
+                SqlCommand cmd = new SqlCommand("INSERT INTO" + hidden.databaseName +
+                                                "(Email, Password) " + "VALUES ('" +
+                                                user.Email + "', '" + user.Password +
+                                                "');", conn);
+                
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                conn.Close();
+
                 MessageBox.Show("Registered");
             }
         }
