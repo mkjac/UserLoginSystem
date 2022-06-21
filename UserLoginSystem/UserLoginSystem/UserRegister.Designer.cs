@@ -62,6 +62,7 @@
             this.RegisterButton.TabIndex = 6;
             this.RegisterButton.Text = "Register";
             this.RegisterButton.UseVisualStyleBackColor = false;
+            this.RegisterButton.Click += new System.EventHandler(this.RegisterButton_Click);
             // 
             // PasswordTextBox
             // 

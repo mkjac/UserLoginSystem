@@ -10,3 +10,4 @@ F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\bin\Debug\
 F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\bin\Debug\UserLoginSystem.pdb
 F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\obj\Debug\UserLoginSystem.exe
 F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\obj\Debug\UserLoginSystem.pdb
+F:\GithubRepositories\UserLoginSystem\UserLoginSystem\UserLoginSystem\obj\Debug\UserLoginSystem.Home.resources

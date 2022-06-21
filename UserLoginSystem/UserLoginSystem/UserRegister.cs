@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace UserLoginSystem
 {
     public partial class UserRegister : Form
     {
+        User user = new User(null, null);
+
         public UserRegister()
         {
             InitializeComponent();
@@ -47,6 +50,11 @@ namespace UserLoginSystem
             {
                 EmailTextBox.Text = "Email";
                 EmailTextBox.ForeColor = Color.Silver;
+                user.Email = null;
+            }
+            else
+            {
+                user.Email = EmailTextBox.Text;
             }
         }
 
@@ -57,6 +65,28 @@ namespace UserLoginSystem
                 PasswordTextBox.Text = "Password";
                 PasswordTextBox.ForeColor = Color.Silver;
                 PasswordTextBox.PasswordChar = '\0';
+                user.Password = null;
+            }
+            else
+            {
+                user.Password = PasswordTextBox.Text;
+            }
+        }
+
+        private void RegisterButton_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(user.Email))
+            {
+                MessageBox.Show("Please input an email");
+            }
+            else if (string.IsNullOrEmpty(user.Password))
+            {
+                MessageBox.Show("Please input password");
+            }
+            else
+            {
+                // Register
+                MessageBox.Show("Registered");
             }
         }
     }
